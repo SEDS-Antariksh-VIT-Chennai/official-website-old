@@ -1,0 +1,436 @@
+/* Header */
+@import url("https://fonts.googleapis.com/css?family=Pop pins:100,200,300,400,500,600,700,800,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-moz-scrollbar {
+  width: 0;
+}
+
+::-ms-scrollbar {
+  width: 0;
+}
+
+#loading {
+  width: 100%;
+  height: 100vh;
+  background: black url(./rocketLoading.gif) no-repeat center;
+  z-index: 9999999999;
+  position: fixed;
+  transition: all 0.5s ease;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+  z-index: 10000;
+  transition: 0.6s;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #a787e4;
+  text-decoration: none;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-family: "Cinzel Decorative", cursive;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+header #toggle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+  top: 8px;
+  right: 16px;
+  /* font-size: 18px; */
+}
+
+header #toggle:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  width: 100%;
+  height: 2px;
+  right: 16px;
+  background: #fff;
+}
+.banner.active header #toggle:before {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.banner.active header #toggle:after {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+header #toggle:after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 100%;
+  height: 2px;
+  right: 16px;
+  background: #fff;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  transition: 0.4s;
+  z-index: 2;
+}
+.banner.active {
+  transform: translateX(-400px);
+}
+#navigation {
+  position: fixed;
+  top: 0;
+  right: -600px;
+  width: 400px;
+  height: 100vh;
+  background: #bea7ff;
+  z-index: 1;
+  display: grid;
+  padding: 2px;
+  place-items: center;
+  transition: 0.4s;
+}
+#navigation.active {
+  right: 0;
+}
+#navigation ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#navigation ul li {
+  list-style: none;
+}
+#navigation ul li a {
+  position: relative;
+  display: inline-block;
+  padding: 6px 15px;
+  text-decoration: none;
+  background: #7067eb;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 1;
+}
+#navigation ul li a:hover {
+  transform: scale(1.4);
+  z-index: 1000;
+  background: #9d00ffff;
+}
+
+/* Header End */
+/* Mobile Nav */
+
+/* Mobile Nav end */
+/* Members */
+
+.tcontainer {
+  width: 85%;
+  height: 90%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+  position: static;
+  padding-left: 2%;
+  padding-right: 2%;
+  align-items: flex-start;
+  color: rgb(136, 46, 196);
+  /* background-color: black; */
+  background-size: cover;
+  /* background: transparent; */
+  background-image: url("bgcond.jpg");
+  /*background-blend-mode:color-dodge ; */
+  font-family: "Play", sans-serif;
+  z-index: 1;
+
+  /* opacity: 60%; */
+  border-radius: 20px;
+}
+
+.tcontainer h2 {
+  padding: 30px 30px 50px 30px;
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  position: absolute;
+  opacity: 100%;
+  font-size: 40px;
+}
+.tcontainer h3 {
+  padding: 5% 35% 20px 35%;
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  color: #bea7ff;
+
+  font-size: 40px;
+  /* text-decoration: underline; */
+  align-self: center;
+
+  /* content: "";
+  	background: #f8f6f6;
+	  max-height: 50px;
+  	position: absolute;
+	  overflow-y: auto;
+  	/* margin-bottom: 60px;
+  	margin-top: 60px;
+	  width: 100%;
+	  margin-left: 60px;
+	  margin-right: 60px;
+	  max-height: 120px;
+  	left: 0;
+  	right: 0; 
+  	transform: skewY(-3deg); */
+}
+.container {
+  display: inline-block; /* or inline-flex */
+  flex-grow: 1;
+  width: 90%;
+  padding: 5%;
+  opacity: 100%;
+  z-index: 3;
+}
+/* Copied */
+.creative h3 {
+  padding: 20px 20% 20px 34%;
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  color: #bea7ff;
+  font-size: 40px;
+  /* text-decoration: underline; */
+  align-items: center;
+}
+.dphead h3 {
+  padding: 20px 20% 20px 38%;
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  color: #bea7ff;
+  font-size: 40px;
+  /* text-decoration: underline; */
+  align-items: center;
+}
+.bohead h3 {
+  padding: 20px 20% 20px 32.5%;
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  color: #bea7ff;
+  font-size: 40px;
+  /* text-decoration: underline; */
+  align-items: center;
+}
+.fachead h3 {
+  padding: 20px 20% 20px 41%;
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  color: #bea7ff;
+  font-size: 40px;
+  /* text-decoration: underline; */
+  align-items: center;
+}
+.members h3 {
+  padding: 20px 57% 20px 43%;
+  font-family: "Play", sans-serif;
+  font-weight: bolder;
+  z-index: 2;
+  color: #bea7ff;
+  font-size: 40px;
+  /* text-decoration: underline; */
+  align-self: center;
+}
+@media screen and (max-width: 765px) {
+  .card {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(136, 46, 196);
+    position: relative;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 5%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 25px 10px rgba(159, 54, 219, 0.596);
+  }
+}
+.card {
+  height: 250px;
+  width: 230px;
+  background-color: rgb(136, 46, 196);
+  position: relative;
+  margin: auto;
+  overflow: auto;
+  margin-bottom: 5%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 25px 10px rgba(159, 54, 219, 0.596);
+}
+
+.info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.name {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #a66df0;
+  overflow: hidden;
+  position: absolute;
+  top: 30%;
+}
+.prof {
+  color: #555555;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  position: absolute;
+  top: 40%;
+}
+.divider {
+  height: 1.5px;
+  width: 50px;
+  background-color: #949594;
+  position: absolute;
+  top: 55%;
+}
+.bio {
+  color: #949594;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 2%;
+  text-align: center;
+  position: absolute;
+  top: 220px;
+}
+button {
+  background-color: #a66df0;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  border: none;
+  font-size: 20px;
+  padding: 13px 25px;
+  position: absolute;
+  bottom: 30px;
+}
+.photo img {
+  height: 100%;
+  width: 100%;
+  /* background: url(profile1.jpg); */
+  background-size: 100% 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 0;
+  border-radius: 8px;
+  transition: 1s;
+}
+.card:hover .photo img {
+  transform: scale(0.5, 0.35) translateY(-650px);
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  border-radius: 50%;
+}
+.social {
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+}
+.social a {
+  color: #e03a3c;
+}
+.social a:hover {
+  color: #e76668;
+  text-decoration: none;
+}
+
+.banner .card {
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: rgb(230, 214, 248);
+  color: whitesmoke;
+}
+.banner .card:hover .social {
+  opacity: 1;
+  bottom: 15%;
+}
+.banner .card .social a {
+  transition: color 0.3s;
+  color: #111111;
+  margin: 0 3px;
+  padding-top: 5px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background: rgba(159, 54, 219, 0.596);
+  display: inline-block;
+  transition: ease-in-out 0.3s;
+  color: rgb(227, 206, 247);
+}
+
+.banner .card .social a:hover {
+  background: #111111;
+}
+.banner .card .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.banner .card .social i {
+  font-size: 18px;
+}
+/* Copied End */
+
+/* Members End */
