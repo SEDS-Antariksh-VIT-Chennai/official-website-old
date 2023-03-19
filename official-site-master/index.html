@@ -7,8 +7,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="LOGO.png">
     <link rel="icon" type="image/png" sizes="16x16" href="LOGO.png">
     <meta charset="UTF-8">
-    <meta name="description" content="SEDS Antariksh is the one and only space club in VIT, Chennai with a motivated spirit to reconnect youth to the void out there, from where everything springs. We strive to provide opportunities to students who desire a career in astronomy, aeronautics and astronautics, through a path of worthwhile learning with practical ends, with the help of eminent professionals in the know. The Site has been developed by Ratnadeep Das Choudhury">
-    <meta name="keywords" content=" SEDS Antariksh, SEDS, SEDS India, Students for the Exploration and Development of Space Antariksh, Vellore institute  of technology chennai, Best, science writer, astronomy, astrophysics, quantum physics, electrical, electronics, rocketry, aeronautics, astronautics" >
+    <meta name="description"
+        content="SEDS Antariksh is the one and only space club in VIT, Chennai with a motivated spirit to reconnect youth to the void out there, from where everything springs. We strive to provide opportunities to students who desire a career in astronomy, aeronautics and astronautics, through a path of worthwhile learning with practical ends, with the help of eminent professionals in the know. The Site has been developed by Ratnadeep Das Choudhury">
+    <meta name="keywords"
+        content=" SEDS Antariksh, SEDS, SEDS India, Students for the Exploration and Development of Space Antariksh, Vellore institute  of technology chennai, Best, science writer, astronomy, astrophysics, quantum physics, electrical, electronics, rocketry, aeronautics, astronautics">
     <meta name="author" content="Ratnadeep Das Choudhury">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEDS Antariksh</title>
@@ -19,19 +21,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=PT+Serif&display=swap"
+        rel="stylesheet">
     <script src="three.min.js"></script>
-     
+
     <script>
         var isNS = (navigator.appName == "Netscape") ? 1 : 0;
-        if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
-        function mischandler(){
-        return false;
+        if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+        function mischandler() {
+            return false;
         }
-        function mousehandler(e){
-        var myevent = (isNS) ? e : event;
-        var eventbutton = (isNS) ? myevent.which : myevent.button;
-        if((eventbutton==2)||(eventbutton==3)) return false;
+        function mousehandler(e) {
+            var myevent = (isNS) ? e : event;
+            var eventbutton = (isNS) ? myevent.which : myevent.button;
+            if ((eventbutton == 2) || (eventbutton == 3)) return false;
         }
         document.oncontextmenu = mischandler;
         document.onmousedown = mousehandler;
@@ -43,321 +46,371 @@
 <body class="portfolio" onload="loadingFunc()">
     <div id="loading">
     </div>
-    
-        <nav class="navbar">
-            <a href="/" style="text-decoration: none;" class="logo">SEDS Antariksh</a>
-            <svg class="menu" width="43" height="23" viewBox="0 0 43 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3" />
-                <line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3" />
-                <line y1="21.5" x2="16" y2="21.5" stroke="white" stroke-width="3" />
-            </svg>
-            <div class="nav-open">
-                <div class="contact">
-                    <h3 style="font-weight: bold;">Address</h3>
-                    <p>Vellore Institute of Technology, Chennai</p>
-                    <p>Kelambakkam - Vandalur Rd, Rajan Nagar, Chennai, Tamil Nadu 600127</p>
-                </div>
-                <div class="social">
-                    <!-- <h3 style="font-weight: bold;">About SEDS</h3> -->
-                    <div class="social-links" style="font-weight: bold; color: rgb(97, 97, 240)">
-                        We Learn | We Build | We Teach 
-                    </div>  
-                </div>
-                
-                <div class="social menu-footer" style="font-size: small;" >
-                    <span>Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+
+    <nav class="navbar">
+        <a href="/" style="text-decoration: none;" class="logo">SEDS Antariksh</a>
+        <svg class="menu" width="43" height="23" viewBox="0 0 43 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3" />
+            <line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3" />
+            <line y1="21.5" x2="16" y2="21.5" stroke="white" stroke-width="3" />
+        </svg>
+        <div class="nav-open">
+            <div class="contact">
+                <h3 style="font-weight: bold;">Address</h3>
+                <p>Vellore Institute of Technology, Chennai</p>
+                <p>Kelambakkam - Vandalur Rd, Rajan Nagar, Chennai, Tamil Nadu 600127</p>
+            </div>
+            <div class="social">
+                <!-- <h3 style="font-weight: bold;">About SEDS</h3> -->
+                <div class="social-links" style="font-weight: bold; color: rgb(97, 97, 240)">
+                    We Learn | We Build | We Teach
                 </div>
             </div>
-        </nav>
-        <main>
-            <section class="page home">
-                <p class="home_warning">Warning - Don't touch the logo !!!</p>
-                <a class="profile-img logo-img" href="#" id="logo-box" style="text-decoration: none;">
-                    <img id="logoImg-hover" src="LOGO.png" alt="model"> 
-                    <p id="launching" style="text-decoration: none; color:rgb(235, 19, 19)"> <i class='bx bxs-error'></i> Rocket is Active <i class='bx bxs-error'></i></p>
-                </a>
-                <div class="details home_details">
-                    <h1 class="home_title">Students for the Exploration and Development of Space</h1>
-                    <h1 class="home_title">Antariksh</h1>
-                 
-                    <h2 style="color: rgb(171, 218, 132)" class="home_title2"><span>Connecting Youth and Space</span></h2>
-                    <a href="https://www.linkedin.com/company/seds-antariksh-vitc" target="_blank"><i class='bx bxl-linkedin-square home__social-icon' style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
-                    <a href="https://www.instagram.com/seds_antariksh/" target="_blank"><i class='bx bxl-instagram home__social-icon' style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
-                    <a href="https://www.facebook.com/sedsantariksh" target="_blank"><i class='bx bxl-facebook-square home__social-icon' style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
-                    <a href="https://www.youtube.com/channel/UCdgk45AFuYHEkLRUL5q584A" target="_blank"><i class='bx bxl-youtube home__social-icon' style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
-                    <a href="mailto:sedsantariksh@gmail.com" target="_blank"><i class='bx bx-envelope home__social-icon' style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
-                </div>
-                
-                <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
-                    <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
-                    <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
-                </div>
-            </section>
-            
-            <section class="page chef" style="top: 6.1rem;">
-               
-                <a class="profile-img" href="about.html">
+
+            <div class="social menu-footer" style="font-size: small;">
+                <span>Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/"
+                            target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span>
+                    and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="page home">
+            <p class="home_warning">Warning - Don't touch the logo !!!</p>
+            <a class="profile-img logo-img" href="#" id="logo-box" style="text-decoration: none;">
+                <img id="logoImg-hover" src="LOGO.png" alt="model">
+                <p id="launching" style="text-decoration: none; color:rgb(235, 19, 19)"> <i class='bx bxs-error'></i>
+                    Rocket is Active <i class='bx bxs-error'></i></p>
+            </a>
+            <div class="details home_details">
+                <h1 class="home_title">Students for the Exploration and Development of Space</h1>
+                <h1 class="home_title">Antariksh</h1>
+
+                <h2 style="color: rgb(171, 218, 132)" class="home_title2"><span>Connecting Youth and Space</span></h2>
+                <a href="https://www.linkedin.com/company/seds-antariksh-vitc" target="_blank"><i
+                        class='bx bxl-linkedin-square home__social-icon'
+                        style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
+                <a href="https://www.instagram.com/seds_antariksh/" target="_blank"><i
+                        class='bx bxl-instagram home__social-icon'
+                        style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
+                <a href="https://www.facebook.com/sedsantariksh" target="_blank"><i
+                        class='bx bxl-facebook-square home__social-icon'
+                        style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
+                <a href="https://www.youtube.com/channel/UCdgk45AFuYHEkLRUL5q584A" target="_blank"><i
+                        class='bx bxl-youtube home__social-icon'
+                        style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
+                <a href="mailto:sedsantariksh@gmail.com" target="_blank"><i class='bx bx-envelope home__social-icon'
+                        style="color: rgb(97, 97, 240); font-size: 2rem; cursor: pointer;"></i></a>
+            </div>
+
+            <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
+                <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
+                <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a
+                            href="https://ratnadeepdchoudhury.com/" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span
+                        style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+            </div>
+        </section>
+
+        <section class="page chef" style="top: 6.1rem;">
+
+            <a class="profile-img" href="about.html">
                 <img class="model-left" src="aboutIcon_left.png" alt="chef">
                 <img class="model-right" src="aboutIcon_right.png" alt="chef">
-                </a>
-                <div class="details">
-                    <h1>About Us</h1>
-                    <p class="page_content">SEDS Antariksh is the one and only space club in VIT, Chennai with a motivated spirit to reconnect youth to the void out there, from where everything springs. We strive to provide opportunities to students who desire a career in astronomy, aeronautics and astronautics, through a path of worthwhile learning with practical ends, with the help of eminent professionals in the know.</p>
-                   
-                        <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to find out more about us</p>
-                    
-                </div>
-                <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
-                    <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
-                    <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
-                </div>
-                
-            </section>
+            </a>
+            <div class="details">
+                <h1>About Us</h1>
+                <p class="page_content">SEDS Antariksh is the one and only space club in VIT, Chennai with a motivated
+                    spirit to reconnect youth to the void out there, from where everything springs. We strive to provide
+                    opportunities to students who desire a career in astronomy, aeronautics and astronautics, through a
+                    path of worthwhile learning with practical ends, with the help of eminent professionals in the know.
+                </p>
 
-            <section class="page chef" style="top: 6.1rem;">
-               
-                <a class="profile-img" href="project.html">
+                <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to find out more about us
+                </p>
+
+            </div>
+            <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
+                <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
+                <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a
+                            href="https://ratnadeepdchoudhury.com/" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span
+                        style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+            </div>
+
+        </section>
+
+        <section class="page chef" style="top: 6.1rem;">
+
+            <a class="profile-img" href="project.html">
                 <img class="model-left" src="./projectIcon_left.png" alt="chef">
                 <img class="model-right" src="./projectIcon_right.png" alt="chef">
-                </a>
-                <div class="details">
-                    <h1>Projects</h1>
-                    <p class="page_content">Over here at the Project Department of SEDS Antariksh, we try to instil a sense of interest and excitement among students about space and astronomy. Through our various technical projects and events, we try to build a community of students who can cater to the futuristic needs of the space and aerospace industry. </p>
-                    <p class="page_content">Your love for innovation, creation and space is all that it takes to become a member of our community.</p>
-                    
-                    <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to find out more</p>
-                    
-                </div>
-                <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
-                    <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
-                    <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
-                </div>
-                
-            </section>
+            </a>
+            <div class="details">
+                <h1>Projects</h1>
+                <p class="page_content">Over here at the Project Department of SEDS Antariksh, we try to instil a sense
+                    of interest and excitement among students about space and astronomy. Through our various technical
+                    projects and events, we try to build a community of students who can cater to the futuristic needs
+                    of the space and aerospace industry. </p>
+                <p class="page_content">Your love for innovation, creation and space is all that it takes to become a
+                    member of our community.</p>
 
-            <section class="page chef" style="top: 6.1rem;">
-               
-                <a class="profile-img" href="./outreach.html">
+                <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to find out more</p>
+
+            </div>
+            <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
+                <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
+                <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a
+                            href="https://ratnadeepdchoudhury.com/" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span
+                        style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+            </div>
+
+        </section>
+
+        <section class="page chef" style="top: 6.1rem;">
+
+            <a class="profile-img" href="./outreach.html">
                 <img class="model-left" src="./outreachIcon_left.png" alt="chef">
                 <img class="model-right" src="./outreachIcon_right.png" alt="chef">
-                </a>
-                <div class="details">
-                    <h1>Outreach</h1>
-                    <p class="page_content">The Outreach department is responsible for organizing sessions in various schools where the kids are taught about basics regarding space starting with why astronomy is important to us till the big bang theory. It covers all the topics which are taught keeping the age and previous knowledge of children in mind.</p>
-                    <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to find out more</p>
-                    
-                </div>
-                <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
-                    <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
-                    <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28"  target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
-                </div>
-                
-            </section>
+            </a>
+            <div class="details">
+                <h1>Outreach</h1>
+                <p class="page_content">The Outreach department is responsible for organizing sessions in various
+                    schools where the kids are taught about basics regarding space starting with why astronomy is
+                    important to us till the big bang theory. It covers all the topics which are taught keeping the age
+                    and previous knowledge of children in mind.</p>
+                <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to find out more</p>
 
-            <section class="page chef" style="top: 6.1rem;">
-               
-                <a class="profile-img" href="teamfinal.html">
+            </div>
+            <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
+                <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
+                <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a
+                            href="https://ratnadeepdchoudhury.com/" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span
+                        style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+            </div>
+
+        </section>
+
+        <section class="page chef" style="top: 6.1rem;">
+
+            <a class="profile-img" href="teamfinal.html">
                 <img class="model-left" src="./teamLeft.png" alt="chef">
                 <img class="model-right" src="./teamRight.png" alt="chef">
-                </a>
-                <div class="details">
-                    <h1>Team</h1>
-                    <p class="page_content">Strong Team is basis of success and we are glad to have that!!!</p>
-                    <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to meet our team</p>
-                    
-                </div>
-                <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
-                    <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
-                    <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
-                </div>
-                
-            </section>
+            </a>
+            <div class="details">
+                <h1>Team</h1>
+                <p class="page_content">Strong Team is basis of success and we are glad to have that!!!</p>
+                <p style="color: rgb(171, 218, 132)" class="page_content">Click on the icon to meet our team</p>
 
-            <section class="page chef" style="top: 6.1rem;">
-               
-                
-                <div class="details contact">
-                    <h1>Contact Us</h1>
-                    <!-- <h2>Hello</h2> -->
-                    <p style="color: rgb(171, 218, 132)" class="page_content">Offcial Email: sedsantariksh@gmail.com</p>
-                    
-                    <form action="POST" data-netlify="true">
-                        <input name="name" placeholder="What is your name?" class="name" required />
-                        <input name="emailaddress" placeholder="What is your email?" class="email" type="email" required />
-                        <textarea rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message" required></textarea>
-                        <input class="btn" type="submit" value="Send" />
-                        
-                    </form>
-                    
-                    <!-- MAP -->
-                   
-                        <!-- <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7780.018431491702!2d80.1517117!3d12.8426808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x944b42131b757d2d!2sVellore%20Institute%20of%20Technology%20-%20VIT%20Chennai!5e0!3m2!1sen!2sin!4v1621703038726!5m2!1sen!2sin" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
-              
-                    
-                </div>
-                <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
-                    <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
-                    <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a href="https://ratnadeepdchoudhury.com/" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank" style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
-                </div>
-                
-            </section>
-
-            
-
-            <div class="pages">
-                <div class="page-1 option">
-                    <h3 class="option_title">Home</h3>
-                    <svg class="slide active" width="12" height="12" viewBox="0 0 12 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
-                    </svg>
-                </div>
-                <div class="page-2 option">
-                    <h3 class="option_title">About</h3>
-                    <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
-                    </svg>
-                </div>
-                <div class="page-3 option">
-                    <h3 class="option_title">Projects</h3>
-                    <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
-                    </svg>
-                </div>
-                <div class="page-3 option">
-                    <h3 class="option_title">Outreach</h3>
-                    <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
-                    </svg>
-                </div>
-                <div class="page-3 option">
-                    <h3 class="option_title">Team</h3>
-                    <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
-                    </svg>
-                </div>
-                <div class="page-3 option">
-                    <h3 class="option_title">Contact</h3>
-                    <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
-                    </svg>
-                </div>
             </div>
-        </main>
-        <script>
-            var preloader = document.getElementById('loading')
+            <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
+                <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
+                <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a
+                            href="https://ratnadeepdchoudhury.com/"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span
+                        style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+            </div>
 
-            function loadingFunc(){
-                preloader.style.display = 'none'
+        </section>
 
-                
+        <section class="page chef" style="top: 6.1rem;">
 
-                gsap.from('.logo-img', {opacity: 0, duration: 5, delay:2, y:50, ease:'elastic.out(1.2,0.4)', stagger:0.2})
-                gsap.from('.logo, .menu', {opacity: 0, duration: 2, delay:2.5, y:25, ease:'expo.out', stagger:0.2})
-                gsap.from('.home_title, .home_title2', {opacity: 0, duration: 2, delay:2.5, y:25, ease:'expo.out', stagger:0.2})
-                gsap.from('.home__social-icon', {opacity: 0, duration: 2, delay:2.3, y:25, ease:'expo.out', stagger:0.2})
-                gsap.from('.option', {opacity: 0, duration: 2, delay:2.9, y:25, ease:'expo.out', stagger:0.2})
-                gsap.from('.footer', {opacity: 0, duration: 2, delay:3.3, y:25, ease:'expo.out', stagger:0.2})
-                gsap.from('.home_warning', {opacity: 0, duration: 2, delay:5.5, x:-25, ease:'expo.out', stagger:0.2})
-                TweenLite.to('.logo-img', 2,  {rotation:360}).delay(1);
-                
-            }
-        </script>
+
+            <div class="details contact">
+                <h1>Contact Us</h1>
+                <!-- <h2>Hello</h2> -->
+                <p style="color: rgb(171, 218, 132)" class="page_content">Offcial Email: sedsantariksh@gmail.com</p>
+
+                <form action="POST" data-netlify="true">
+                    <input name="name" placeholder="What is your name?" class="name" required />
+                    <input name="emailaddress" placeholder="What is your email?" class="email" type="email" required />
+                    <textarea rows="4" cols="50" name="subject" placeholder="Please enter your message" class="message"
+                        required></textarea>
+                    <input class="btn" type="submit" value="Send" />
+
+                </form>
+
+                <!-- MAP -->
+
+                <!-- <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7780.018431491702!2d80.1517117!3d12.8426808!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x944b42131b757d2d!2sVellore%20Institute%20of%20Technology%20-%20VIT%20Chennai!5e0!3m2!1sen!2sin!4v1621703038726!5m2!1sen!2sin" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+
+
+            </div>
+            <div style="bottom: 0; position: absolute; display: block; right: 0px;left: 0px;" class="footer">
+                <span style="float: left; padding-left: 2rem;">&copy; 2021 SEDS Antariksh</span>
+                <span style="float: right; padding-right: 2rem;">Developed by <span style="color:rgb(250, 61, 250)"><a
+                            href="https://ratnadeepdchoudhury.com/" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Ratnadeep</a></span> and <span
+                        style="color:rgb(250, 61, 250)"><a href="https://github.com/varunss28" target="_blank"
+                            style="text-decoration: none; color:rgb(250, 61, 250)">Varun</a></span></span>
+            </div>
+
+        </section>
+
+
+
+        <div class="pages">
+            <div class="page-1 option">
+                <h3 class="option_title">Home</h3>
+                <svg class="slide active" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
+                </svg>
+            </div>
+            <div class="page-2 option">
+                <h3 class="option_title">About</h3>
+                <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
+                </svg>
+            </div>
+            <div class="page-3 option">
+                <h3 class="option_title">Projects</h3>
+                <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
+                </svg>
+            </div>
+            <div class="page-3 option">
+                <h3 class="option_title">Outreach</h3>
+                <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
+                </svg>
+            </div>
+            <div class="page-3 option">
+                <h3 class="option_title">Team</h3>
+                <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
+                </svg>
+            </div>
+            <div class="page-3 option">
+                <h3 class="option_title">Contact</h3>
+                <svg class="slide" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="rgb(97, 97, 240)" />
+                </svg>
+            </div>
+        </div>
+    </main>
+    <script>
+        var preloader = document.getElementById('loading')
+
+        function loadingFunc() {
+            preloader.style.display = 'none'
+
+
+
+            gsap.from('.logo-img', { opacity: 0, duration: 5, delay: 2, y: 50, ease: 'elastic.out(1.2,0.4)', stagger: 0.2 })
+            gsap.from('.logo, .menu', { opacity: 0, duration: 2, delay: 2.5, y: 25, ease: 'expo.out', stagger: 0.2 })
+            gsap.from('.home_title, .home_title2', { opacity: 0, duration: 2, delay: 2.5, y: 25, ease: 'expo.out', stagger: 0.2 })
+            gsap.from('.home__social-icon', { opacity: 0, duration: 2, delay: 2.3, y: 25, ease: 'expo.out', stagger: 0.2 })
+            gsap.from('.option', { opacity: 0, duration: 2, delay: 2.9, y: 25, ease: 'expo.out', stagger: 0.2 })
+            gsap.from('.footer', { opacity: 0, duration: 2, delay: 3.3, y: 25, ease: 'expo.out', stagger: 0.2 })
+            gsap.from('.home_warning', { opacity: 0, duration: 2, delay: 5.5, x: -25, ease: 'expo.out', stagger: 0.2 })
+            TweenLite.to('.logo-img', 2, { rotation: 360 }).delay(1);
+
+        }
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
         integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
         crossorigin="anonymous"></script>
-        
+
     <script src="./app.js"></script>
-    <script> 
+    <script>
         //STAR EFFECT
-    
+
         let scene, camera, renderer, starGeo, stars;
         function init() {
-          //create scene object
-          scene = new THREE.Scene();
-          
-          //setup camera with facing upward
-          camera = new THREE.PerspectiveCamera(60,window.innerWidth / window.innerHeight, 1, 1000);
-          camera.position.z = 1;
-          camera.rotation.x = Math.PI/2;
-          
-          //setup renderer
-          renderer = new THREE.WebGLRenderer();
-          renderer.setSize(window.innerWidth, window.innerHeight);
-          console.log(document)
-          document.body.appendChild(renderer.domElement);
-    
-          starGeo = new THREE.Geometry();
-        for(let i=0;i<6000;i++) {
-            let star = new THREE.Vector3(
-            Math.random() * 600 - 300,
-            Math.random() * 600 - 300,
-            Math.random() * 600 - 300,
-            
-        );
-        star.velocity = 0;
-        star.acceleration = 0.008;
-        starGeo.vertices.push(star);
-        }
-        let sprite = new THREE.TextureLoader().load( 'blueStar.png' );
-        let starMaterial = new THREE.PointsMaterial({
-            color: 0xaaaaaa,
-            size: 0.8,
-            map: sprite
-        });
-        stars = new THREE.Points(starGeo,starMaterial);
-        scene.add(stars);
-          animate(); 
+            //create scene object
+            scene = new THREE.Scene();
+
+            //setup camera with facing upward
+            camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 1000);
+            camera.position.z = 1;
+            camera.rotation.x = Math.PI / 2;
+
+            //setup renderer
+            renderer = new THREE.WebGLRenderer();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            console.log(document)
+            document.body.appendChild(renderer.domElement);
+
+            starGeo = new THREE.Geometry();
+            for (let i = 0; i < 6000; i++) {
+                let star = new THREE.Vector3(
+                    Math.random() * 600 - 300,
+                    Math.random() * 600 - 300,
+                    Math.random() * 600 - 300,
+
+                );
+                star.velocity = 0;
+                star.acceleration = 0.008;
+                starGeo.vertices.push(star);
+            }
+            let sprite = new THREE.TextureLoader().load('blueStar.png');
+            let starMaterial = new THREE.PointsMaterial({
+                color: 0xaaaaaa,
+                size: 0.8,
+                map: sprite
+            });
+            stars = new THREE.Points(starGeo, starMaterial);
+            scene.add(stars);
+            animate();
         }
         //rendering loop
         function animate() {
             starGeo.vertices.forEach(p => {
-            p.velocity += p.acceleration
-            p.y -= p.velocity;
-            //200 200
-            if (p.y < -200) {
-            p.y = 200;
-            p.velocity = 0;
-            }
+                p.velocity += p.acceleration
+                p.y -= p.velocity;
+                //200 200
+                if (p.y < -200) {
+                    p.y = 200;
+                    p.velocity = 0;
+                }
             });
-          starGeo.verticesNeedUpdate = true; 
-          stars.rotation.y +=0.002;
-          renderer.render(scene, camera);
-          requestAnimationFrame(animate);
+            starGeo.verticesNeedUpdate = true;
+            stars.rotation.y += 0.002;
+            renderer.render(scene, camera);
+            requestAnimationFrame(animate);
         }
         init();
-        
-    
-     </script>
-     <script>
-        document.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-  });
 
-  document.onkeydown = function(e) {
-    if(event.keyCode == 123) {
-       return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-       return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-       return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-       return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-       return false;
-    }
-  }
+
     </script>
-    
+    <script>
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        document.onkeydown = function (e) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+        }
+    </script>
+
 </body>
 
 </html>
